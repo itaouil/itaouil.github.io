@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-30 15:59:00-0400
+date: 2016-01-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-<b> <a href="https://sites.google.com/view/safe-steps-rl/" >SafeSteps</a></b> has been accepted to the IEEE-RAS International Conference on Humanoid Robots 2023.
+A simple inline announcement with Markdown emoji! :sparkles: :smile:
