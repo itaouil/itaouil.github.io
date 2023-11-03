@@ -2,25 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Research Fellow @ <a href='https://dls.iit.it'>Dynamic Legged Systems Lab</a>. Istituto Italiano di Tecnologia. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a research fellow with the Dynamic Legged Systems Group, headed by <a href='https://dls.iit.it/people-details/-/people/claudio-semini'> Claudio Semini </a> at the Istituto Italiano di Tecnologia. Previously, I was a Research Associate at the <a href="https://iisc.ac.in"> Indian Institute of Science </a>, working on Continual Learning at the Artificial Intelligence and Robotics Laboratory. I graduated from the <a href="https://www.iitm.ac.in"> Indian Institute of Technology Madras (IIT-M) </a> with a Dual Degree, Bachelor's and Master's degree, in Engineering Design. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my current research, I focus on inducing biases using model-based priors to learn safe and robust vision-aided locomotion. I am broadly interested in supervised learning, reinforcement learning and control theory to apply them in robotics for control and planning in ardous scenarios. 
