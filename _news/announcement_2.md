@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Participated at the <a href='https://robotics-summerschool.ethz.ch/'>ETH Robotics Summer School</a>
+Participated in the <a href='https://robotics-summerschool.ethz.ch/'>ETH Robotics Summer School</a>
