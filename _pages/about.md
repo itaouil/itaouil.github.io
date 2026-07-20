@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD candidate @ <a href='https://www.tum.de/'>TUM</a>.
 
 profile:
   align: right
