@@ -25,3 +25,12 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+# Ruby 3.4+ moved these from default to bundled gems; declaring them keeps the
+# local Docker preview image (which ships a newer Ruby) working. No-op on the
+# CI deploy, which pins Ruby 3.2.2 where these are still default gems.
+gem 'ostruct'
+gem 'bigdecimal'
+gem 'logger'
+gem 'base64'
+gem 'csv'
+gem 'mutex_m'

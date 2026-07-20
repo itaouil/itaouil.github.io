@@ -22,11 +22,38 @@
   year={2026},
   abstract={DynaRetarget: Dynamically-Feasible Retargeting using Sampling-Based Trajectory Optimization.},
   arxiv={2602.06827},
-  website={https://dynaretarget.github.io/},
+  website={https://atarilab.github.io/dynaretarget.io/},
   video={https://www.youtube.com/watch?v=YlopoVulwi8},
   bibtex_show={true},
   selected={true},
   preview={dynaretarget.gif}
+}
+
+@article{taouil2025physically,
+  title={Physically Consistent Humanoid Loco-Manipulation using Latent Diffusion Models},
+  author={Taouil, Ilyass and Zhao, Haizhou and Dai, Angela and Khadiv, Majid},
+  journal={IEEE-RAS International Conference on Humanoid Robots (Humanoids)},
+  year={2025},
+  abstract={This paper uses the capabilities of latent diffusion models (LDMs) to generate realistic RGB human-object interaction scenes to guide humanoid loco-manipulation planning. To do so, we extract from the generated images both the contact locations and robot configurations that are then used inside a whole-body trajectory optimization (TO) formulation to generate physically consistent trajectories for humanoids. We validate our full pipeline in simulation for different long-horizon loco-manipulation scenarios and perform an extensive analysis of the proposed contact and robot configuration extraction pipeline. Our results show that using the information extracted from LDMs, we can generate physically consistent trajectories that require long-horizon reasoning.},
+  arxiv={2504.16843},
+  video={https://www.youtube.com/watch?v=BtEbeIOVUpo},
+  bibtex_show={true}
+}
+
+@article{10806593,
+  title={Non-Gaited Legged Locomotion With Monte-Carlo Tree Search and Supervised Learning},
+  author={Taouil, Ilyass and Amatucci, Lorenzo and Khadiv, Majid and Dai, Angela and Barasuol, Victor and Turrisi, Giulio and Semini, Claudio},
+  journal={IEEE Robotics and Automation Letters},
+  year={2025},
+  volume={10},
+  number={2},
+  pages={1265-1272},
+  abstract={Legged robots are able to navigate complex terrains by continuously interacting with the environment through careful selection of contact sequences and timings. However, the combinatorial nature behind contact planning hinders the applicability of such optimization problems on hardware. In this work, we present a novel approach that optimizes gait sequences and respective timings for legged robots in the context of optimization-based controllers through the use of sampling-based methods and supervised learning techniques. We propose to bootstrap the search by learning an optimal value function in order to speed-up the gait planning procedure making it applicable in real-time. To validate our proposed method, we showcase its performance both in simulation and on hardware using a 22 kg electric quadruped robot. The method is assessed on different terrains, under external perturbations, and in comparison to a standard control approach where the gait sequence is fixed a priori.},
+  arxiv={2408.07508},
+  video={https://www.youtube.com/watch?v=kRhWex-BK3w},
+  keywords={Planning;Optimization;Costs;Timing;Legged locomotion;Real-time systems;Quadrupedal robots;End effectors;Supervised learning;Hardware;Legged robots;gait adaptation;supervised learning},
+  doi={10.1109/LRA.2024.3519908},
+  bibtex_show={true}
 }
 
 @article{taouil2023quadrupedal,
@@ -35,20 +62,9 @@
   journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2023},
   abstract={Legged robots are increasingly entering new domains and applications, including search and rescue, inspection, and logistics. However, for such a systems to be valuable in real-world scenarios, they must be able to autonomously and robustly navigate irregular terrains. In many cases, robots that are sold on the market do not provide such abilities, being able to perform only blind locomotion. Furthermore, their controller cannot be easily modified by the end-user, requiring a new and time-consuming control synthesis. In this work, we present a fast local motion planning pipeline that extends the capabilities of a black-box walking controller that is only able to track high-level reference velocities. More precisely, we learn a set of motion models for such a controller that maps high-level velocity commands to Center of Mass (CoM) and footstep motions. We then integrate these models with a variant of the A* algorithm to plan the CoM trajectory, footstep sequences, and corresponding high-level velocity commands based on visual information, allowing the quadruped to safely traverse irregular terrains at demand.},
-  arxiv={https://arxiv.org/abs/2307.12292},
+  arxiv={2307.12292},
   website={https://www.youtube.com/watch?v=HtgWoM1FpJw},
-  bibtex_show={true}, 
+  bibtex_show={true},
   selected={true},
   preview={iros_2023.gif}
 }
-
-@article{10806593,
-  author={Taouil, Ilyass and Amatucci, Lorenzo and Khadiv, Majid and Dai, Angela and Barasuol, Victor and Turrisi, Giulio and Semini, Claudio},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={Non-Gaited Legged Locomotion With Monte-Carlo Tree Search and Supervised Learning}, 
-  year={2025},
-  volume={10},
-  number={2},
-  pages={1265-1272},
-  keywords={Planning;Optimization;Costs;Timing;Legged locomotion;Real-time systems;Quadrupedal robots;End effectors;Supervised learning;Hardware;Legged robots;gait adaptation;supervised learning},
-  doi={10.1109/LRA.2024.3519908}}
