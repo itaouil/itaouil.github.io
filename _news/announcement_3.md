@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted at RA-L to be presented at IROS 2025, Hangzhou.
+One paper accepted at RA-L presented at IROS 2025, Hangzhou.
